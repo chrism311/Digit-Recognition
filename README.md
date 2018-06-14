@@ -1,4 +1,4 @@
-#Digit-Recognition
+# Digit-Recognition
 
 The following project is using the MNIST dataset (hand-written digits 0-9) and using machine learning to correctly classify them.
 
