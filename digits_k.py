@@ -20,7 +20,7 @@ y = to_categorical(y)
 #Using own handwritten data
 images, labels = [], []
 
-for i in glob("/home/cmiranda/programming/project1/new_digits/*.png"):
+for i in glob("/new_digits/*.png"):
 	image = cv2.imread(i, 0)
 	image = cv2.bitwise_not(image)
 	images.append(image)

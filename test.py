@@ -16,7 +16,7 @@ images = []
 labels = [] 
 
 #Reads custom handwritten digits
-for pic in glob('/home/cmiranda/programming/project1/new_digits/*.png'):
+for pic in glob('/new_digits/*.png'):
 	image = cv2.imread(pic, 0)
 	image = cv2.bitwise_not(image)
 	images.append(image)
